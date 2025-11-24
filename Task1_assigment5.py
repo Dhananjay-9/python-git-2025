@@ -8,7 +8,6 @@ student_marks = {
 
 name = input("Enter the student's name: ")
 
-#Retrieve and display marks or show message if not found
 if name in student_marks:
     print(f"{name}'s marks: {student_marks[name]}")
 else:
